@@ -1,0 +1,16 @@
+<section class="pofficeinfo">
+  <div class="poffice cf" ng-model="results">
+    <a href="#/details/{{prevItem}}" class="btn btn-left">&lt;</a>
+    <a href="#/details/{{nextItem}}" class="btn btn-right">&gt;</a>
+    <h1>{{results[whichItem].office_name}}</h1>
+    <div class="info">
+      <div class="detail">
+        <h3>District</h3>{{results[whichItem].district}}</div>
+        <br>
+        <h3>Region</h3>{{results[whichItem].region_name}}</div>
+        <br>
+        <h3>State</h3>{{results[whichItem].state_name}}</div>
+      </div>
+  </div>
+  <a href="index.html">&laquo; Back to search</a>
+</section>
